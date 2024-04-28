@@ -67,7 +67,7 @@ setInterval(continoustimer, 1000)  //set interval ma function ko baghair () ma l
 
 //  getting remaining class time practice of question
 function get_remaining_time() {
-    var class_time = new Date("4,30,2024 11:00")
+    var class_time = new Date("4,29,2024 11:00")
     var current_time = new Date();
     var class_milli = class_time.getTime();
     var current_milli = current_time.getTime();
